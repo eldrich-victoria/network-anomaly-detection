@@ -82,6 +82,7 @@ data/raw/UNSW_NB15_training-set.csv
 data/raw/UNSW_NB15_testing-set.csv
 data/processed/
 data/output/
+data/
 
 # ==============================================================================
 # Model Files
