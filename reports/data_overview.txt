@@ -1,0 +1,56 @@
+================================================================================
+               UNSW-NB15 DATASET EXPLORATORY OVERVIEW REPORT
+================================================================================
+
+1. TRAINING DATASET PROFILE
+----------------------------------------
+Dataset Name: UNSW_NB15_training-set
+Dimensions: 175341 rows, 45 columns
+Duplicate Rows: 0
+Total Missing Values: 0
+
+Missing Indicator ('-') Occurrences:
+
+Missing Values Breakdown (Top 5 columns):
+  - id: 0
+  - dur: 0
+  - proto: 0
+  - service: 0
+  - state: 0
+
+2. TESTING DATASET PROFILE
+----------------------------------------
+Dataset Name: UNSW_NB15_testing-set
+Dimensions: 82332 rows, 45 columns
+Duplicate Rows: 0
+Total Missing Values: 0
+
+Missing Values Breakdown (Top 5 columns):
+  - id: 0
+  - dur: 0
+  - proto: 0
+  - service: 0
+  - state: 0
+
+3. FEATURE LIST SCHEMA SUMMARY
+----------------------------------------
+Total Features Documented: 49
+Features Breakdown by Type:
+  - integer: 20
+  - Float: 10
+  - Integer: 8
+  - nominal: 6
+  - Timestamp: 2
+  - Binary: 2
+  - binary: 1
+
+4. SCHEMA CONSISTENCY CHECK
+----------------------------------------
+Train and Test schemas match perfectly.
+Total Shared Columns: 45
+
+Detailed Column Types (Train Dataset):
+  - int64: 30
+  - float64: 11
+  - str: 4
+
